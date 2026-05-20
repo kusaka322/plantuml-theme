@@ -1,0 +1,35 @@
+' Общие настройки для ВКР: шрифт 11 pt при вставке PNG в Word (Times New Roman в тексте — 14).
+' Подключение в каждом файле: !include _gost_theme.puml
+' Экспорт: java -jar plantuml.jar -tpng thesis/diagrams/*.puml
+
+skinparam dpi 200
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontSize 11
+
+skinparam classFontSize 11
+skinparam classFontName Arial
+skinparam entityFontSize 11
+skinparam entityFontName Arial
+skinparam activityFontSize 11
+skinparam activityFontName Arial
+skinparam noteFontSize 10
+skinparam noteFontName Arial
+skinparam arrowFontSize 10
+skinparam arrowFontName Arial
+skinparam sequenceMessageFontSize 11
+skinparam sequenceParticipantFontSize 11
+skinparam componentFontSize 11
+skinparam componentFontName Arial
+skinparam rectangleFontSize 11
+skinparam rectangleFontName Arial
+skinparam cardFontSize 11
+skinparam cardFontName Arial
+skinparam actorFontSize 11
+skinparam actorFontName Arial
+skinparam databaseFontSize 11
+skinparam databaseFontName Arial
+skinparam folderFontSize 11
+skinparam folderFontName Arial
+skinparam cloudFontSize 11
+skinparam cloudFontName Arial
